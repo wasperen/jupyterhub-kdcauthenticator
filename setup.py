@@ -24,4 +24,7 @@ setup(name='jupyterhub-kdcauthenticator',
       author_email='jchakrabort5@bloomberg.net',
       license='3 Clause BSD',
       packages=['kdcauthenticator'],
+      install_requires=[
+          'kerberos',
+      ],
       zip_safe=False)
